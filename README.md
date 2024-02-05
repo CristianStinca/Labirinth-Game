@@ -2,7 +2,7 @@
 A simple packman-like game.
 
 ### How to run the project?
-You will need have Java installed. The project creates a database using MySql. This will require to specify a reference to mysql-connector.jar library. It can be downloaded from http://download.nust.na/pub6/mysql/downloads/connector/j/index.html. In the editor you need to reference to this library, and then just run the project.
+You will need have Java installed. The project creates a database using MySql. This will require to specify a reference to mysql-connector.jar library. It can be downloaded from http://download.nust.na/pub6/mysql/downloads/connector/j/index.html. In the editor you need to reference to the path of this library, and then just run the project from the editor.
 
 ### Controls
 Use AWSD for movement. 
