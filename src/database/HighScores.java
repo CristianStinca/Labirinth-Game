@@ -33,7 +33,7 @@ public class HighScores {
         // Add new user -> MySQL workbench (Menu: Server / Users and priviliges)
         //                             Tab: Administrative roles -> Check "DBA" option
         connectionProps.put("user", "root");
-        connectionProps.put("password", "saptamana");
+        connectionProps.put("password", "password");
         connectionProps.put("serverTimezone", "UTC");
         String dbURL = "jdbc:mysql://localhost:3306/highscores";
         connection = DriverManager.getConnection(dbURL, connectionProps);
