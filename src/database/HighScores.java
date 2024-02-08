@@ -22,6 +22,9 @@ import java.util.Properties;
  */
 public class HighScores {
 
+    private String username = "root";
+    private String password = "password";
+
     int maxScores;
     PreparedStatement insertStatement;
     PreparedStatement deleteStatement;
@@ -32,8 +35,8 @@ public class HighScores {
         Properties connectionProps = new Properties();
         // Add new user -> MySQL workbench (Menu: Server / Users and priviliges)
         //                             Tab: Administrative roles -> Check "DBA" option
-        connectionProps.put("user", "root");
-        connectionProps.put("password", "password");
+        connectionProps.put("user", username);
+        connectionProps.put("password", password);
         connectionProps.put("serverTimezone", "UTC");
         String dbURL = "jdbc:mysql://localhost:3306/highscores";
         connection = DriverManager.getConnection(dbURL, connectionProps);
