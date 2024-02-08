@@ -2,7 +2,7 @@
 A simple packman-like game.
 
 ### How to run the project?
-You will need have Java installed. The project creates a database using MySql. Originally it was executed using MySQL Workbench 8.0 CE. In the "path to project"\src\database\HighScores.java, the username and the password has to be modified to match your MySQL database (can be found on lines 25-26). This will require to specify a reference to mysql-connector.jar library. It can be downloaded from http://download.nust.na/pub6/mysql/downloads/connector/j/index.html. In the editor you need to reference to the path of this library, and then just run the project from the editor.
+You will need have Java installed. The project creates a database using MySql. Originally it was executed using MySQL Workbench 8.0 CE. In the "path to project"\src\database\HighScores.java, the username and the password has to be modified to match your MySQL database (can be found on lines 25-26). The project will require to specify a reference to mysql-connector.jar library. It can be downloaded from http://download.nust.na/pub6/mysql/downloads/connector/j/index.html. In the editor you need to reference to the path of this library, and then just run the project from the editor.
 
 ### Controls
 Use AWSD for movement. 
